@@ -63,7 +63,7 @@
         <div>
           Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
         </div>
-        
+
       </div>
     </div>
   </header>
@@ -97,38 +97,23 @@
 
   <main>
     <h1 class="display-4 text-center my-4">Evalaution Git Abdellah</h1>
-<!-- On tables -->
-<table class="table-primary">...</table>
-<table class="table-secondary">...</table>
-<table class="table-success">...</table>
-<table class="table-danger">...</table>
-<table class="table-warning">...</table>
-<table class="table-info">...</table>
-<table class="table-light">...</table>
-<table class="table-dark">...</table>
 
-<!-- On rows -->
-<tr class="table-primary">...</tr>
-<tr class="table-secondary">...</tr>
-<tr class="table-success">...</tr>
-<tr class="table-danger">...</tr>
-<tr class="table-warning">...</tr>
-<tr class="table-info">...</tr>
-<tr class="table-light">...</tr>
-<tr class="table-dark">...</tr>
-
-<!-- On cells (`td` or `th`) -->
-<tr>
-  <td class="table-primary">...</td>
-  <td class="table-secondary">...</td>
-  <td class="table-success">...</td>
-  <td class="table-danger">...</td>
-  <td class="table-warning">...</td>
-  <td class="table-info">...</td>
-  <td class="table-light">...</td>
-  <td class="table-dark">...</td>
-</tr>
-
+    <form>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
     <div class="container">
       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione eos reprehenderit nulla facilis nisi ad perspiciatis saepe molestiae quas beatae, at tempore veritatis sit, non magni dolor est, accusamus quidem.</p>
 
