@@ -1,0 +1,4 @@
+# Ce fichier permet de préciser quel dossier ou fichier en sera pas versionné sur github
+# On exclu ici le dossier contenant les images qui n'a pas besoin d'être versionné
+
+/img/
